@@ -2,17 +2,39 @@
 <html lang="en">
 	<head>
   	<meta charset="utf-8">
-  	<meta name="description" content="Your description goes here">
-  	<meta name="keywords" content="one, two, three">
+  	<meta name="Poker app" content="API Poker App">
+  	<meta name="Poker app" content="Head to head">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<title>Blank Template</title>
+		<title>Poker</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
+		<main class="table">
+			<section id="playerOne" class="player_hand hidden">
+				<img src="" alt="card" id="p1a"></img>
+				<img src="" alt="card" id="p1b"></img>
+			</section>
+			<button id="drawHand">Deal Hand</button>
+			<button id="drawFlop" class="hidden">Deal the Flop</button>
+			<button id="drawTurn" class="hidden">Deal the Turn</button>
+			<button id="drawRiver" class="hidden">Deal the River</button>
+
+			<section id="community_cards" class="hidden">
+				<img src="" alt="card" id="c2a"></img>
+				<img src="" alt="card" id="c2b"></img>
+				<img src="" alt="card" id="c2c"></img>
+				<img src="" alt="card" id="c2d" class="hidden"></img>
+				<img src="" alt="card" id="c2e" class="hidden"></img>
+			</section>
+			<section id="playerTwo" class="player_hand hidden">
+				<img src="" alt="card" id="p2a"></img>
+				<img src="" alt="card" id="p2b"></img>
+			</section>
+		</main>	
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>

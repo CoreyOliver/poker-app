@@ -20,3 +20,51 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
+body{
+  font-size: 62.5%;
+  background-color: white;
+}
+main{
+  background-color: rgba(28, 139, 28, 0.911);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  flex: 1 1 auto;
+  margin: 10px;
+  border-radius: 10px;
+}
+button{
+  width: 15%;
+  height: 25%;
+  align-self: center;
+  font-size: .75rem;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  cursor: pointer;
+  }
+section {
+display: flex;
+justify-content: space-around;
+margin: 5%;
+padding: 2.5%;
+border: red 2px solid;
+border-radius: 10px;
+background-color: rgba(12, 81, 25,1);
+}
+#community_cards {
+  flex-wrap: wrap;
+}
+.player_hand {
+  margin: 5% 20%;
+  flex-wrap: wrap;
+}
+img {
+  height: 100px;
+  margin: 5%;
+  border: 1px black solid;
+}
+
+.hidden {
+  display: none;
+}
